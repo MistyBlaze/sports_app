@@ -1,0 +1,46 @@
+name: flick_sports
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0-312.0.dev
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^1.1.0
+  flutter_screenutil: ^5.9.3
+  get: ^4.6.6
+  video_player: ^2.1.1
+  http: ^0.13.3  # Added http package
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/background.png
+    - assets/welcome.png
+    - assets/card.jpg
+    - assets/card.png
+    - assets/ex1.png
+    - assets/ex2.png
+    - assets/ex3.png
+    - assets/ex4.png
+    - assets/figure.png
+    - assets/figure1.png
+    - assets/squat1.jpg
+    - assets/squat2.jpg
+    - assets/squat3.jpg
+    - assets/squat4.jpg
+    - assets/json/drills.json
+    - assets/json/info.json
+    - assets/json/info.json
+
